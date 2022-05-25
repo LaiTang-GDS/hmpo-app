@@ -165,3 +165,8 @@ logger().info('log message', { req, err, other: 'metedata' });
 const { redisClient } = require('hmpo-app');
 redisClient().set('key', 'value');
 ```
+
+# Major version migration
+
+## v3.x.x
+- The latest versions of some modules only work with node >= 14
